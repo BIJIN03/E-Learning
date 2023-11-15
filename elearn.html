@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Learning Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="elearn.css">>
+</head>
+<body>
+    <header>
+        <div id="menu" class="fas fa-bars"></div>
+        <a href="#" class="logo"><i class="fas fa-user-graduate"></i>SmartLearn</a>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a href="#teacher">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="login" class="fas fa-user-circle"></div>
+    </header>
+    <div class="login-form">
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" placeholder="username" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>Forgot password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#" class="register">Register now</a></p>
+            <input type="submit" class="btn" value="login">
+            <i class="fas fa-times"></i>
+        </form>
+    </div>
+    <div class="register-form">
+        <form action="">
+            <h3>Sign-Up</h3>
+            <input type="text" placeholder="enter username" class="box">
+            <input type="email" placeholder="enter email" class="box">
+            <input type="password" placeholder="create password" class="box">
+            <input type="password" placeholder="confirm password" class="box">
+            <input type="submit" class="btn" value="Register">
+            <i class="fas fa-times"></i>
+        </form>
+    </div>
+    <section class="home" id="home">
+        <h1>Learn From Home</h1>
+        <p>Discover a transformative educational experience tailored to meet the demands of the modern learner. Our platform seamlessly integrates cutting-edge technology with expertly crafted content, providing you with a dynamic and engaging learning environment with our expert faculties.</p>
+        <a href="#"><button class="btn">Get Started</button></a>
+        <div class="shape"></div>
+    </section>
+    <section class="about" id="about">
+        <div class="image">
+            <img src="/study.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Why SmartLearn?</h3>
+            <p>At SmartLearn, we prioritize your learning journey by offering an unparalleled experience curated for success. Our platform boasts a team of seasoned experts as instructors, ensuring that you receive top-notch education from professionals with real-world industry experience. Dive into a world of high-quality content, thoughtfully designed to engage and challenge learners at every level. With a commitment to flexibility, our platform enables you to tailor your education to your schedule, providing 24/7 accessibility and the freedom to learn at your own pace.</p>
+            <p>What sets us apart is not just the diversity of our course offerings but the interactive learning environment we cultivate. From cutting-edge technology integration to a supportive community, we empower you to excel. Track your progress, earn certifications, and connect with like-minded learners and industry leaders. Choose SmartLearn for an enriching educational journey that goes beyond traditional learning, unlocking opportunities and paving the way for your personal and professional growth.</p>
+            <a href="#"><button class="btn">Learn More</button></a>
+        </div>
+    </section>
+    <section class="course" id="course">
+        <h1 class="heading">Our Top Courses</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="dataanalytics.webp" alt="">
+                <h3 class="price">$50</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Data Analytics</a>
+                    <p>Unlock the power of data with our comprehensive Data Analytics course. Designed for both beginners and intermediate learners, this e-learning program provides a solid foundation in the essential concepts and practical skills needed to analyze and interpret data effectively.</p>
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 2 Hours </h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 6 Months </h3>
+                        <h3><i class="fas fa-book"></i> 12 Modules </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="software.png" alt="">
+                <h3 class="price">$112</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="title">Software Development</a>
+                    <p>Explore the world of software development on our e-learning platform! Whether you're a beginner or an experienced coder, our courses cover everything from coding basics to advanced techniques. Join us to enhance your skills and embark on a journey of innovation in the dynamic field of software development.</p>
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 3 Hours </h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 3 Months </h3>
+                        <h3><i class="fas fa-book"></i> 10 Modules </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="htmlcssjs.jpg" alt="">
+                <h3 class="price">$45</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Introduction to HTML,CSS and JAVASCRIPT</a>
+                    <p>Learn HTML, CSS, and JavaScript essentials for web development with our quick and practical courses. Ideal for beginners, these bite-sized lessons help you create interactive websites efficiently.</p>
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 2 Hours </h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 3 Months </h3>
+                        <h3><i class="fas fa-book"></i> 12 Modules </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="ml.jpg" alt="">
+                <h3 class="price">$60</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Machine Learning</a>
+                    <p>Discover machine learning basics with our concise e-learning modules. Perfect for beginners, our courses simplify the complexities of this transformative field, making innovation accessible to all.</p>
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 3 Hours </h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 6 Months </h3>
+                        <h3><i class="fas fa-book"></i> 9 Modules </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="ethicalhacking.webp" alt="">
+                <h3 class="price">$55</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="title">Ethical Hacking</a>
+                    <p>Dive into ethical hacking basics with our quick e-learning modules. Perfect for beginners, our courses empower you to learn cybersecurity essentials for ethical hacking practices.</p>
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 1 Hours </h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 4 Months </h3>
+                        <h3><i class="fas fa-book"></i> 10 Modules </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="cybersecurity.webp" alt="">
+                <h3 class="price">$40</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="title">Cybersecurity</a>
+                    <p>Discover cybersecurity essentials with our quick e-learning modules. Ideal for beginners, our courses provide a brief yet practical introduction to secure digital practices.</p>
+                    <div class="info">
+                        <h3><i class="fas fa-clock"></i> 2 Hours </h3>
+                        <h3><i class="fas fa-calendar-alt"></i> 3 Months </h3>
+                        <h3><i class="fas fa-book"></i> 5 Modules </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="teacher" id="teacher">
+        <h1 class="heading">Expert Faculties</h1>
+        <p>Discover from industry experts on our e-learning platform. Our passionate faculty brings practical insights to every lesson, ensuring an engaging and supportive learning experience tailored for your success.</p>
+        <a href="#"><button class="btn">Learn More</button></a>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact Us</h1>
+        <div class="row">
+            <form action="" class="form">
+                <input type="text" placeholder="Full Name" class="box">
+                <input type="email" placeholder="Your Email" class="box">
+                <input type="password" placeholder="Your Password" class="box">
+                <input type="number" placeholder="Your Number" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="Your Address"></textarea>
+                <input type="submit" class="btn" value="Send Now">
+            </form>
+            <div class="image">
+                <img src="contact-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Branch Locations</h3>
+                <a href="#">India</a>
+                <a href="#">USA</a>
+                <a href="#">France</a>
+                <a href="#">Russia</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Course</a>
+                <a href="#">Teachers</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Mumbai, India 400104</p>
+                <p><i class="fas fa-envelope"></i> sample@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+123-456789 1011 </p>
+            </div>
+        </div>
+        <h1 class="credit">All rights Reserved</h1>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="elearn.js"></script>
+</body>
+</html>
